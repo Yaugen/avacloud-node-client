@@ -1,0 +1,25 @@
+{
+    "name": "@dangl/avacloud-client-node",
+    "version": "1.31.1-beta0004",
+    "description": "NodeJS client for @dangl/avacloud-client-node",
+    "repository": "/",
+    "main": "api.js",
+    "types": "api.d.ts",
+    "scripts": {
+        "clean": "rm -Rf node_modules/ *.js",
+        "build": "tsc",
+        "test": "npm run build && node client.js"
+    },
+    "author": "Swagger Codegen Contributors",
+    "license": "Unlicense",
+    "dependencies": {
+        "bluebird": "^3.5.0",
+        "request": "^2.81.0",
+        "@types/bluebird": "*",
+        "@types/request": "*"
+    },
+    "devDependencies": {
+        "typescript": "^3.4.3",
+        "minimist": "^1.2.5"
+    }
+}
