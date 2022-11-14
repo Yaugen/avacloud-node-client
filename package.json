@@ -1,6 +1,6 @@
 {
     "name": "@dangl/avacloud-client-node",
-    "version": "1.31.1-beta0004",
+    "version": "1.31.3-beta0009",
     "description": "NodeJS client for @dangl/avacloud-client-node",
     "repository": "/",
     "main": "api.js",
